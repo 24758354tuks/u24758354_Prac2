@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0px;
+    
+    background-image: url('Images/gotham.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    transition: opacity transform 0.5s ease-in-out;
+    opacity: 1;
+    height: 100%;
+    width: 20px;
+}
+
+img:hover {
+    transform: scaleX(-1); /* Flips the image horizontally */
+}
+
+.container {
+    width: 80;
+    margin: auto;
+    background: grey;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    background: black;
+    padding: 7px;
+    border-radius: 2px;  
+    border-top: 2px solid white;  
+    border-bottom: 2px solid white;
+    
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-right: 2px solid white;
+}
+
+.nav a:hover {
+    background-color: grey;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0 , 0, 0.2)
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.section {
+    margin-top: 10px;
+    padding: 15px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.section img {
+    float: left;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.hobbies img {
+    float: right;
+    margin-top: -110px;
+}
+
+.modules {
+    display: flex;
+    margin-right:50px;
+
+}
